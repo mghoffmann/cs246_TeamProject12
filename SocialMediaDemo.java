@@ -1,5 +1,3 @@
-package socialmedia;
-
 
 import java.util.ArrayList;
 import java.util.List;

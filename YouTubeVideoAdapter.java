@@ -1,5 +1,3 @@
-package socialmedia;
-
 /**
  * Adapter class for exposing data from YouTubeVideo class via
  * the SocialMediaEntry interface.
@@ -13,7 +11,7 @@ class YouTubeVideoAdapter implements SocialMediaEntry {
    }
 
    public String getPostText() {
-      return adaptee.getTitle() + "\n" + adaptee.getDescription();
+      return adaptee.getTitle() + ": " + adaptee.getDescription();
    }
 
    public String getUser() {

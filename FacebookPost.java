@@ -1,5 +1,3 @@
-package socialmedia;
-
 
 /**
  * Encapsulates the data of a Facebook status update.
